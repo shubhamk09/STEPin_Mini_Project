@@ -20,3 +20,7 @@ There is always a risk of human error in the manual work, which will eventually 
 * Mistakes in manually managing the salaries can lead to fines and penalties. Thus salary management system help in reducing unwanted costs.
 * The user need not be an expert in any domain as all the calculation is done by the software. User just have to use the software to do the task without worrying about the working of the software.
 * Timely delivery of the salaries and taxes. Oranization could deliver the salarries and taxes in time thus maintaining a healthy relationship between organization and its employees.
+
+# SWOT Analysis
+
+![](swot.png)
