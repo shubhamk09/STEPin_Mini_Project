@@ -49,7 +49,7 @@ There is always a risk of human error in the manual work, which will eventually 
 
 ### State of Art
 
-  
+* Before salary management system, the organization have to do all the work of managing manually. This was a tidious task to do and lot of paper work to handle. First generation of salary managemnt system does not have any databases. They were just being used to cut down the time nedded in calculation. User still have to manually feed the required input to the system in order to get results. Salaray managemnt system were added as a module to the accounting system of the organisation, which have only few features. Support for the database was included in later years with dedicated software which truly streamlined the processes.  
   
 
 ## Defining my System
@@ -94,6 +94,7 @@ There is always a risk of human error in the manual work, which will eventually 
   
 
 ### How:
+
 * This product deployeed can be in a desktop, and the user just have to chose which function is neede to be performed, the system will perform that function and give the results.
 
 
