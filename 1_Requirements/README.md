@@ -46,8 +46,6 @@ There is always a risk of human error in the manual work, which will eventually 
 
 * Timely delivery of the salaries and taxes. Oranization could deliver the salarries and taxes in time thus maintaining a healthy relationship between organization and its employees.
 
-  
-  
 
 ### State of Art
 
@@ -79,7 +77,7 @@ There is always a risk of human error in the manual work, which will eventually 
 
 ### What:
 
-* This product is about managing the salaries of the employees in an organization with large number of employees and automate the the tasks related to salary management.
+* This Product enables the organisation to handle all the employee's financial records in a hassle-free, automated fashion. This includes employee's salaries, bonuses, deductions, net pay, and generation of pay-slips.
 
   
 
