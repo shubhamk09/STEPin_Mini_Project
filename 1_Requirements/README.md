@@ -14,8 +14,9 @@ There is always a risk of human error in the manual work, which will eventually 
 
 ## Benefits
 
-* Saves times and efforts that go into building a plan, acquiring and compiling all employee data, and setting up the entire system.
+* Saves times and efforts that go into building a plan, acquiring and compiling all employee data, and manually setting up the entire system.
 * Doesn’t hamper productivity of those employees who would have otherwise spent time in dealing with paper work.
-* Company resources are saved; implementing it manualy is very costly.
-* Mistakes in manualy managing the salaries can lead to fines and penalties. Thus salary management system help in reducing extra cost.
-* The user need not be an expert in any domain as all the calculation is done by the software.
+* Company resources are saved; implementing it manually is very costly.
+* Mistakes in manually managing the salaries can lead to fines and penalties. Thus salary management system help in reducing unwanted costs.
+* The user need not be an expert in any domain as all the calculation is done by the software. User just have to use the software to do the task without worrying about the working of the software.
+* Timely delivery of the salaries and taxes. Oranization could deliver the salarries and taxes in time thus maintaining a healthy relationship between organization and its employees.
