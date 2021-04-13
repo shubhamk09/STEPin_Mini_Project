@@ -16,11 +16,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-/**
-* @brief get details of every employee of the organisation
-* 
-*/
+
 void get_details_all();
+
+
+void add_employee();
+
+
+long get_salary_by_id(char id[20]);
 
 
 #endif
