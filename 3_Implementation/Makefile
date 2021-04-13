@@ -6,7 +6,8 @@ SSRC=src
 SRC=main.c \
 src/get_details_all.c \
 src/add_employee.c \
-src/get_salary_by_id.c
+src/get_salary_by_id.c \
+src/del_employee.c
 # TEST_SRC=test_complex.c\
 # unity.c
 

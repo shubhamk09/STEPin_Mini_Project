@@ -14,6 +14,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+
+#define BUFFER_SIZE 1000 
+
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 
@@ -24,6 +29,15 @@ void add_employee();
 
 
 long get_salary_by_id(char id[20]);
+
+
+void del_employee(char id[20]);
+
+int get_row(char id[20]);
+
+void deleteLine(FILE *srcFile, FILE *tempFile, const int line);
+
+void printFile(FILE *fptr);
 
 
 #endif

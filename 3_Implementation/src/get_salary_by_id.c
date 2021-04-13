@@ -1,7 +1,7 @@
 #include "salary_management.h"
 
 long get_salary_by_id(char id[20]){
-FILE *fp = NULL;
+    FILE *fp = NULL;
     long salary;
     fp = fopen("employee.csv", "r");
      if (!fp)
