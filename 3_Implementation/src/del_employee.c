@@ -2,10 +2,7 @@
 
 void del_employee(char id[20]){
     int row=get_row(id);
-    printf("\n%d", row);
-
-
-
+    
     FILE *srcFile;
     FILE *tempFile;
 
@@ -28,12 +25,6 @@ void del_employee(char id[20]){
         exit(EXIT_FAILURE);
     }
 
-
-
-    // printf("\nFile contents before removing line.\n\n");
-    // printFile(srcFile);
-
-
     // Move src file pointer to beginning
     rewind(srcFile);
 
@@ -49,17 +40,7 @@ void del_employee(char id[20]){
     /* Delete src file and rename temp file as src */
     remove(path);
     rename("delete-line.tmp", path);
-
-
-    printf("\n\n\nFile contents after removing %d line.\n\n", line);
-
-    // Open source file and print its contents
-    srcFile = fopen(path, "r");
-    printFile(srcFile);
-    fclose(srcFile);
-
-
-
+    
 
 }
 
