@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: print current working directory
-      run: pwd
-    - name: change working directory
-      run: cd 3_Implementation
-    - name: list
-      run: ls
+    - name: make 
+      run: make -C STEPin_Mini_Project/3_Implementation
+
 
