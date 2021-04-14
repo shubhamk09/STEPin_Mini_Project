@@ -35,7 +35,7 @@ typedef struct employee
 void get_details_all();
 
 
-void add_employee(char name[50], long id,char department[20], long salary);
+void add_employee();
 
 
 long get_salary_by_id(char id[20]);
@@ -53,6 +53,7 @@ void increment(char id[20]);
 
 emp get_details_employee(char id[20]);
 
+float calculate_salary(char id[20]);
 
 void toString(char str[], long num);
 

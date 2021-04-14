@@ -8,7 +8,9 @@ src/get_details_all.c \
 src/add_employee.c \
 src/get_salary_by_id.c \
 src/del_employee.c \
-src/increment.c
+src/increment.c \
+src/calculate_salary.c \
+src/get_detail_employee.c
 # TEST_SRC=test_complex.c\
 # unity.c
 
@@ -24,7 +26,7 @@ coverage:$(PROJECT_NAME)
 	gcov -a $(SRC)
 
 valgrind:$(PROJECT_NAME)
-	valgrind ./${PROJECT_NAME}.exe
+	valgrind --track-origins=yes ./${PROJECT_NAME}.out
 
 cppcheck:$(SRC)
 	cppcheck $(SRC)
