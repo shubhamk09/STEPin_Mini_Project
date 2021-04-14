@@ -15,8 +15,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: print current working directory
       run: pwd
-    - name: make
-      run: make
-    - name: make run
-      run: make run
+    - name: change working directory
+      run: cd 3_Implementation
+    - name: list
+      run: ls
 
