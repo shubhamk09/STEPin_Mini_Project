@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: go to implementation folder
-      run: cd 3_Implementation
     - name: make
       run: make
     - name: make run
