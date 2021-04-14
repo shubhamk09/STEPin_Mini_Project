@@ -43,7 +43,7 @@ int main(){
             employee=get_details_employee(id);
             printf("\nID: %ld", employee.id);
             printf("\nName: %s", employee.name);
-            printf("\nDepartment: %ld", employee.department);
+            printf("\nDepartment: %s", employee.department);
             printf("\nSalary: %ld", employee.salary);
         }
         else if (input==5)
