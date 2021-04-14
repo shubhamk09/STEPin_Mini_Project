@@ -32,4 +32,4 @@ cppcheck:$(SRC)
 	cppcheck $(SRC)
 
 clean:$(SRC)
-	rm *gcov *gcda *gch
+	rm -r *gcov *gcda *gch
