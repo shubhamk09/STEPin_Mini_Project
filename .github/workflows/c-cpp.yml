@@ -14,7 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: make
-      run: make 
+    - name: make 
       run: make -C STEPin_Mini_Project/3_Implementation/
 
