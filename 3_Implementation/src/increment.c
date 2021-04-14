@@ -7,7 +7,7 @@ void increment(char id[20]){
     emp e = get_details_employee(id);
     del_employee(id);
     int inc;
-    printf("\n How much you want to increment? \n");
+    printf("\nHow much you want to increment? \n");
     scanf("%d", &inc);
     e.salary=e.salary+inc;
 
@@ -17,6 +17,7 @@ void increment(char id[20]){
     }
 
     fprintf(fp,"%ld, %s, %s, %ld\n", e.id, e.name, e.department, e.salary);
+    printf("\nThe salary is updated\n");
     fclose(fp);
 
 

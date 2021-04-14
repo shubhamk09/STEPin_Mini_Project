@@ -16,7 +16,7 @@ void add_employee(){
     printf("Enter Slary of the Employee:\n");
     scanf("%ld", &salary);
     
-    printf("%ld, %s, %s, %ld\n", id, name, department, salary);
+    
     
     FILE *fp=fopen("employee.csv","a+");
 
@@ -25,6 +25,9 @@ void add_employee(){
     }
 
     fprintf(fp,"%ld, %s, %s, %ld\n", id, name, department, salary);
-    
+    printf("\nEmployee added\n");
+    printf("\n%ld, %s, %s, %ld\n", id, name, department, salary);
+
+
     fclose(fp);
 }

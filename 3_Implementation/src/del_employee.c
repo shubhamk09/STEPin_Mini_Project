@@ -41,7 +41,7 @@ void del_employee(char id[20]){
     remove(path);
     rename("delete-line.tmp", path);
     
-
+    printf("\nThe employee have been removed\n");
 }
 
 int get_row(char id[20]){
