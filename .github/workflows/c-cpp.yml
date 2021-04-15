@@ -15,7 +15,9 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: config
-      run: ./configure
+      run: pwd
     - name: make 
-      run: make -C STEPin_Mini_Project/3_Implementation/
+      run: cd 3_Implementation
+    - name: hjjj
+      run: pwd
 
