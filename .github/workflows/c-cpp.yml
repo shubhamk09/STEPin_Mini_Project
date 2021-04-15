@@ -14,10 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: config
-      run: pwd
-    - name: make 
-      run: cd 3_Implementation
-    - name: hjjj
-      run: pwd
+    - name: make
+      run: make -C 3_Implementation/ all
 
