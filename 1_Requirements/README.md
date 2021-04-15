@@ -157,6 +157,7 @@ There is always a risk of human error in the manual work, which will eventually 
 * This product deployeed can be in a desktop, and the user just have to chose which function is neede to be performed, the system will perform that function and give the results.
 
   
+ 
   
 
 ## Detail requirements

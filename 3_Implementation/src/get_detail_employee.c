@@ -4,7 +4,7 @@ emp get_details_employee(char id[20]){
     int rowg=get_row(id);
     char buffer[1024]="";
     FILE *fp = NULL;
-    emp e;
+    emp e={};
     fp = fopen("employee.csv", "r");
      if (!fp)
         printf("Can't open file\n");
