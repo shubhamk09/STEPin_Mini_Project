@@ -36,9 +36,11 @@ $(PROJECT_NAME):all
 # Run the target even if the matching name exists
 .PHONY: run clean test doc all
 
+# Build the program
 all:$(SRC) $(INC)
 	gcc -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
 
+# Run the program
 run:$(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
 
@@ -47,17 +49,23 @@ run:$(PROJECT_NAME)
 doc:
 	make -C ./documentation
 
+
+# Checking code Coverage
 coverage:$(PROJECT_NAME)
 	gcc -fprofile-arcs -ftest-coverage $(SRC) -o $(PROJECT_NAME).$(EXEC)
 	./${PROJECT_NAME}.$(EXEC)
 	gcov -a $(SRC)
 
+# Checking for any memory leaks
 valgrind:$(PROJECT_NAME)
 	valgrind --track-origins=yes ./${PROJECT_NAME}.$(EXEC)
 
+
+# Run cpp check to see any error before compiling
 cppcheck:$(SRC)
 	cppcheck $(SRC)
 
+# Clean unwanted files
 clean:$(SRC)
 	rm -r *gcov *gcda *gch
 
