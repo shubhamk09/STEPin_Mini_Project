@@ -171,8 +171,8 @@ There is always a risk of human error in the manual work, which will eventually 
  HR6 | User should be able to print salary slip |   Future 
 
   
-| Build | cppcheck | Valgrind | Unit Test |
-| ----- | -------- | -------- | --------- |
+| HLR ID | Description | Status |
+| ----- | -------- | -------- |
 | HR1 | User should be able to add new employee | Implemented |
 
 ### Low Level Requirements:
