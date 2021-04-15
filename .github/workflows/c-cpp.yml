@@ -13,10 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: go to implementation folder
-      run: cd 3_Implementation
-    - name: make
-      run: make
-    - name: make run
-      run: make run
+
+    - name: make 
+      run: make -C STEPin_Mini_Project/3_Implementation/all
 
