@@ -160,7 +160,9 @@ There is always a risk of human error in the manual work, which will eventually 
 ### High Level Requirements:
 
  HLR ID | Description | Status  
+ 
  ----- | ----- | ------- | ---------
+ 
  HR1 | User should be able to add new employee| IMPLEMENTED 
  HR2 | User should able to get details of employees |  IMPLEMENTED  
  HR3 | User should be able to increment the salary of an employee |   IMPLEMENTED  
