@@ -103,7 +103,9 @@ There is always a risk of human error in the manual work, which will eventually 
 ### High Level Requirements:
 
 | HLR ID | Description | Status | 
+
 | ----- | ----- | ------- | ---------|
+
 | HR1 | Data should be stored in a CSV file |   IMPLEMENTED  |
 | HR2 | User should be able to add new employee| IMPLEMENTED | 
 | HR3 | User should able to get details of employees |  IMPLEMENTED  |
