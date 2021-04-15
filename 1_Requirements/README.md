@@ -163,7 +163,7 @@ There is always a risk of human error in the manual work, which will eventually 
  
  ----- | ----- | ------- | ---------
  
- HR1 | User should be able to add new employee| IMPLEMENTED 
+ HR1 | User should be able to add new employee | IMPLEMENTED 
  HR2 | User should able to get details of employees |  IMPLEMENTED  
  HR3 | User should be able to increment the salary of an employee |   IMPLEMENTED  
  HR4 | User should be able to remove an employee  |  IMPLEMENTED  
@@ -173,6 +173,7 @@ There is always a risk of human error in the manual work, which will eventually 
   
 | Build | cppcheck | Valgrind | Unit Test |
 | ----- | -------- | -------- | --------- |
+| HR1 | User should be able to add new employee | Implemented |
 
 ### Low Level Requirements:
 

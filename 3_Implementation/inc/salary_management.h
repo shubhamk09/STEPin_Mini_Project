@@ -1,7 +1,7 @@
 /**
  * @file salary_management.h
- * @author your name (you@domain.com)
- * @brief 
+ * @author shubham kalihari
+ * @brief This Program is used in the organisation to manage salary related task.
  * @version 0.1
  * @date 2021-04-13
  * 
