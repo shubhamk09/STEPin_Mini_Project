@@ -52,13 +52,13 @@ doc:
 
 # Checking code Coverage
 coverage:$(PROJECT_NAME)
-	gcc -fprofile-arcs -ftest-coverage $(SRC) -o $(PROJECT_NAME).$(EXEC)
+	gcc -fprofile-arcs -ftest-coverage -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
 	./${PROJECT_NAME}.$(EXEC)
 	gcov -a $(SRC)
 
 # Checking for any memory leaks
 valgrind:$(PROJECT_NAME)
-	gcc -fprofile-arcs -ftest-coverage $(SRC) -o $(PROJECT_NAME).$(EXEC)
+	gcc -fprofile-arcs -ftest-coverage -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
 	./${PROJECT_NAME}.$(EXEC)
 	valgrind --track-origins=yes ./${PROJECT_NAME}.$(EXEC)
 
