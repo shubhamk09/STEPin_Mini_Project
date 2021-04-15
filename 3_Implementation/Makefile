@@ -3,9 +3,9 @@ PROJECT_NAME=salarymanagement
 INC= inc
 SSRC=src
 
-SRC=main.c \
-
 BUILD = build
+
+SRC=main.c \
 src/get_details_all.c \
 src/add_employee.c \
 src/get_salary_by_id.c \
