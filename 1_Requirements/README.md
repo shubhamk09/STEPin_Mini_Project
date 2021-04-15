@@ -86,8 +86,10 @@ There is always a risk of human error in the manual work, which will eventually 
 
 ## Defining my System
 
+* Our system will have feature like Add employee, get details of employee,  delete an employee, Calculate Salary, get details of all the employee, Increment Salary of an employee. The data will be stored in csv file and reading and writing for the system will be done to the csv file.
 
 ![](define_system.png)
+
   
 
 ## SWOT Analysis
