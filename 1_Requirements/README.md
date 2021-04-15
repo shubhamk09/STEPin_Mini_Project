@@ -78,6 +78,10 @@ There is always a risk of human error in the manual work, which will eventually 
 
 * Before salary management system, the organization have to do all the work of managing manually. This was a tidious task to do and lot of paper work to handle. First generation of salary managemnt system does not have any databases. They were just being used to cut down the time nedded in calculation. User still have to manually feed the required input to the system in order to get results. Salaray managemnt system were added as a module to the accounting system of the organisation, which have only few features. Support for the database was included in later years with dedicated software which truly streamlined the processes.
 
+* There are many salary management or payrollsystem available in market. For example, Keka; it is an employee experience platform. It is employee centric platform. Unlike traditional HR systems, they are a modern new generation platform focused on user experience and simplifying complex workflows. It contains various features like Application tracking, Time management, performance review, Hiring onboarding and many more.
+
+* There are different types of salary management software are available with differnt pricing. Some are free software which can be used in small bussiness like wave app, Zenefits, etc. Some softwaare comes with monthly pricing like Gusto which cost $39/ month to $149/ month. Some software also come with per-user pricing like PayrollHero which cost arount $3.5 per user per month. Some come with Quote-Based pricing like ADP Workforce Now and One-Time Licensing Fee like CompensationXL.
+
   
 
 ## Defining my System
