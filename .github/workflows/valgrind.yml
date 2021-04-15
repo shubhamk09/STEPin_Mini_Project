@@ -22,4 +22,4 @@ jobs:
     - name: Valgrind 
       run: |
         make -C 3_Implementation/ all
-        valgrind -C 3_Implementation/salarymanagement.out
+        valgrind ./3_Implementation/salarymanagement.out
