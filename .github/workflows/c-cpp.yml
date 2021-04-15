@@ -14,6 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: config
+      run: ./configure
     - name: make 
-      run: make all -C STEPin_Mini_Project/3_Implementation/
+      run: make -C STEPin_Mini_Project/3_Implementation/
 
