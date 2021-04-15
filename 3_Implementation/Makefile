@@ -42,7 +42,7 @@ $(PROJECT_NAME):all
 
 # Build the program
 all:$(SRC) $(INC)
-	gcc -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
+	gcc -I$(INC) -I$(UNITY_INC) -I$(SSRC) -I$(TEST_SSRC) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).$(EXEC)
 
 # Run the program
 run:$(PROJECT_NAME)
