@@ -4,6 +4,8 @@ INC= inc
 SSRC=src
 
 SRC=main.c \
+
+BUILD = build
 src/get_details_all.c \
 src/add_employee.c \
 src/get_salary_by_id.c \
@@ -29,11 +31,21 @@ else
    endif
 endif
 
+$(PROJECT_NAME):all
+
+# Run the target even if the matching name exists
+.PHONY: run clean test doc all
+
 all:$(SRC) $(INC)
 	gcc -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
 
 run:$(PROJECT_NAME)
 	./$(PROJECT_NAME).$(EXEC)
+
+
+# Document the code using Doxygen
+doc:
+	make -C ./documentation
 
 coverage:$(PROJECT_NAME)
 	gcc -fprofile-arcs -ftest-coverage $(SRC) -o $(PROJECT_NAME).$(EXEC)
@@ -48,3 +60,11 @@ cppcheck:$(SRC)
 
 clean:$(SRC)
 	rm -r *gcov *gcda *gch
+
+# test:$(BUILD)
+# 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+# 	./$(TEST_OUTPUT)
+
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
