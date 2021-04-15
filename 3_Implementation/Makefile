@@ -1,10 +1,10 @@
 PROJECT_NAME=salarymanagement
 
 INC = inc 
-INC_unity = unity
+UNITY_INC = unity
 
 SSRC=src 
-TEST_SRC = test
+TEST_SSRC = test
 
 BUILD = build
 
@@ -17,7 +17,7 @@ src/increment.c \
 src/calculate_salary.c \
 src/get_detail_employee.c
 
-TEST_INC = unity/unity.c \
+TEST_SRC = unity/unity.c \
 test/test.c
 
 
@@ -70,8 +70,8 @@ clean:$(SRC)
 	rm -f *.gcov *.gcda *.gch *.gcno
 
 test:$(BUILD)
-	gcc -I$(INC) -I$(SSRC) $(SRC) $(TEST_INC) -o $(PROJECT_NAME).$(EXEC) 
-	./$(TEST_OUTPUT)
+	gcc -I$(INC) -I$(UNITY_INC) -I$(SSRC) -I$(TEST_SSRC) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).$(EXEC) 
+	./$(PROJECT_NAME).$(EXEC)
 
 # Create new build folder if not present
 $(BUILD):

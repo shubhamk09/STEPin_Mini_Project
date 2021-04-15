@@ -1,3 +1,5 @@
+#include "unity.h"
+
 #ifndef __TEST_SUM_H__
 #define __TEST_SUM_H__
 
