@@ -82,7 +82,7 @@ There is always a risk of human error in the manual work, which will eventually 
 
 ## Defining my System
 
-  
+
 
   
 
@@ -171,6 +171,7 @@ There is always a risk of human error in the manual work, which will eventually 
 
 
 ### Low Level Requirements:
+
 
 | LLR ID | Description | Status | 
 | ----- | -------- | -------- |
