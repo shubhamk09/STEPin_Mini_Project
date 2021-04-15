@@ -174,15 +174,15 @@ There is always a risk of human error in the manual work, which will eventually 
 
 | LLR ID | Description | Status | 
 | ----- | ----- | ------- | ---------|
-| LR1 | User should be able to select the task which he desire to perform. |   IMPLEMENTED  |
-| LR2 | System should ask user all the necessary details of employee to add employee to the database. |   IMPLEMENTED  |
-| LR3 | User should be able to input the id of the employee in order to get the details of the employee. |   IMPLEMENTED  |
-| LR4 | User should be able to input the id of the employee in order to remove the details of the employee. |   IMPLEMENTED  |
-| LR5 | User should be able to input the id of the employee in order to remove the details of the employee. |   IMPLEMENTED  |
-| LR6 | System should calculate basic salary, fba, gross monthly salary, Provident fund and perday salary of employee. |   IMPLEMENTED  |
-| LR7 | User should be able to input the id of the employee and the icrement value in order to increment the salary of the employee. |   IMPLEMENTED  |
-| LR8 | When incrementing the salary system should fetch all the details of employee, increment the salary, delete the old record of employee and then rewrite the whole record into the file . |   IMPLEMENTED  |
-| LR9 | Data should be stored in a CSV file |   IMPLEMENTED  |
-| LR10 | System should be able to print the salary slip in proper format including basic salary, fba, gross monthly salary, Provident fund and perday salary of employee.|   FUTURE  |
+| LR1 | User should be able to select the task which he desire to perform. | Implemented |
+| LR2 | System should ask user all the necessary details of employee to add employee to the database. | Implemented |
+| LR3 | User should be able to input the id of the employee in order to get the details of the employee. | Implemented |
+| LR4 | User should be able to input the id of the employee in order to remove the details of the employee. | Implemented |
+| LR5 | User should be able to input the id of the employee in order to remove the details of the employee. | Implemented |
+| LR6 | System should calculate basic salary, fba, gross monthly salary, Provident fund and perday salary of employee. | Implemented |
+| LR7 | User should be able to input the id of the employee and the icrement value in order to increment the salary of the employee. | Implemented |
+| LR8 | When incrementing the salary system should fetch all the details of employee, increment the salary, delete the old record of employee and then rewrite the whole record into the file . | Implemented |
+| LR9 | Data should be stored in a CSV file | Implemented |
+| LR10 | System should be able to print the salary slip in proper format including basic salary, fba, gross monthly salary, Provident fund and perday salary of employee.| Future |
 
 
