@@ -1,4 +1,5 @@
 #include "salary_management.h"
+#include "test.h"
 
 int main(){
     
@@ -75,5 +76,7 @@ int main(){
 
 
     }
+
+    test_main();
     
 }
