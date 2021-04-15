@@ -173,7 +173,7 @@ There is always a risk of human error in the manual work, which will eventually 
 ### Low Level Requirements:
 
 | LLR ID | Description | Status | 
-| ----- | ----- | ------- | ---------|
+| ----- | -------- | -------- |
 | LR1 | User should be able to select the task which he desire to perform. | Implemented |
 | LR2 | System should ask user all the necessary details of employee to add employee to the database. | Implemented |
 | LR3 | User should be able to input the id of the employee in order to get the details of the employee. | Implemented |
