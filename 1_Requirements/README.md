@@ -87,7 +87,7 @@ There is always a risk of human error in the manual work, which will eventually 
 ## Defining my System
 
 
-
+![](define_system.png)
   
 
 ## SWOT Analysis
