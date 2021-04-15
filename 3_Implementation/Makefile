@@ -11,6 +11,7 @@ src/del_employee.c \
 src/increment.c \
 src/calculate_salary.c \
 src/get_detail_employee.c
+
 # TEST_SRC=test_complex.c\
 # unity.c
 
@@ -28,7 +29,7 @@ else
    endif
 endif
 
-$(PROJECT_NAME):$(SRC) $(INC)
+all:$(SRC) $(INC)
 	gcc -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
 
 run:$(PROJECT_NAME)
