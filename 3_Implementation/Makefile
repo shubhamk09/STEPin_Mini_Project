@@ -1,7 +1,10 @@
 PROJECT_NAME=salarymanagement
 
-INC= inc
-SSRC=src
+INC = inc 
+INC_unity = unity
+
+SSRC=src 
+TEST_SRC = test
 
 BUILD = build
 
@@ -14,8 +17,9 @@ src/increment.c \
 src/calculate_salary.c \
 src/get_detail_employee.c
 
-# TEST_SRC=test_complex.c\
-# unity.c
+TEST_INC = unity/unity.c \
+test/test.c
+
 
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
@@ -56,12 +60,6 @@ coverage:$(PROJECT_NAME)
 	./${PROJECT_NAME}.$(EXEC)
 	gcov -a $(SRC)
 
-# Checking for any memory leaks
-valgrind:$(PROJECT_NAME)
-	gcc -fprofile-arcs -ftest-coverage -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
-	./${PROJECT_NAME}.$(EXEC)
-	valgrind --track-origins=yes ./${PROJECT_NAME}.$(EXEC)
-
 
 # Run cpp check to see any error before compiling
 cppcheck:$(SRC)
@@ -69,11 +67,11 @@ cppcheck:$(SRC)
 
 # Clean unwanted files
 clean:$(SRC)
-	rm -r *gcov *gcda *gch
+	rm -f *.gcov *.gcda *.gch *.gcno
 
-# test:$(BUILD)
-# 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-# 	./$(TEST_OUTPUT)
+test:$(BUILD)
+	gcc -I$(INC) -I$(SSRC) $(SRC) $(TEST_INC) -o $(PROJECT_NAME).$(EXEC) 
+	./$(TEST_OUTPUT)
 
 # Create new build folder if not present
 $(BUILD):
