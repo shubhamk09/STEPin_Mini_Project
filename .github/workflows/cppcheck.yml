@@ -16,5 +16,5 @@ jobs:
     - name: make
       run: make -C 3_Implementation/ all
     - name: make cppcheck
-      run: make -C 3_Implementation/ cppcheck
+      run: make cppcheck -C 3_Implementation/
 
