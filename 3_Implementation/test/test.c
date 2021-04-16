@@ -15,6 +15,11 @@
 		
 	}
 
+	void test_get_salary_by_id(){
+
+		TEST_ASSERT_EQUAL(420040, get_salary_by_id("11710408"));
+	}
+
 	int test_main(void)
 	{
 	  	UNITY_BEGIN();
