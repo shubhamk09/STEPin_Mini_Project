@@ -56,7 +56,7 @@ doc:
 
 # Checking code Coverage
 coverage:$(PROJECT_NAME)
-	gcc -fprofile-arcs -ftest-coverage -I$(INC) -I$(SSRC) $(SRC) -o $(PROJECT_NAME).$(EXEC)
+	gcc -fprofile-arcs -ftest-coverage -I$(INC) -I$(UNITY_INC) -I$(SSRC) -I$(TEST_SSRC) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).$(EXEC)
 	./${PROJECT_NAME}.$(EXEC)
 	gcov -a $(SRC)
 
