@@ -70,7 +70,9 @@ clean:$(SRC)
 	rm -f *.gcov *.gcda *.gch *.gcno
 
 test:$(BUILD)
-	gcc -I$(INC) -I$(UNITY_INC) -I$(SSRC) -I$(TEST_SSRC) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).$(EXEC) 
+	gcc -I$(INC) -I$(UNITY_INC) -I$(SSRC) -I$(TEST_SSRC) $(SRC) $(TEST_SRC) -o $(PROJECT_NAME).$(EXEC)
+
+test_run:$(BUILD)
 	./$(PROJECT_NAME).$(EXEC)
 
 # Create new build folder if not present
