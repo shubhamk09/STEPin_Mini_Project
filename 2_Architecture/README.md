@@ -19,5 +19,5 @@
 
 ## Activity Diagram
 
-![](activity.jpg)
+![](Activity.jpg)
 
