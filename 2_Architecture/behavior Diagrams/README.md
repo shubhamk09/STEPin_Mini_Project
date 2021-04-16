@@ -1,4 +1,10 @@
 # Behavior Diagrams
 
-## Add all the Behavior diagrams implememted
+## Component Diagram
+
+![](component.jpg)
+
+## Object diagram
+
+![](object.png)
 
