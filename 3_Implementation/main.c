@@ -6,6 +6,9 @@ int main(){
     printf("\n========================= Welcome to the Salary Management system =========================\n");
     int input=0;
     while(input!=8){
+
+        void (*fun_ptr)() = NULL;
+
         printf("\n===================================== Chose your Task =====================================\n");
         printf("1 - > Adding new Employee\n");
         printf("2 - > Calculate This Month's Salary\n");
@@ -18,7 +21,8 @@ int main(){
         scanf("%d", &input);
 
         if(input==1){
-            add_employee();
+            fun_ptr=&add_employee;
+            fun_ptr();
         }
         else if (input==2)
         {
