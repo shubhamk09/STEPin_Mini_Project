@@ -9,7 +9,7 @@
 
 ## Use Case Diagram
 
-![](structure Diagrams/usecase.png)
+![](../structure_Diagrams/usecase.png)
 
 ## Activity Diagram
-![](structure Diagrams/activity.jpg)
+![](../structure_Diagrams/activity.jpg)
