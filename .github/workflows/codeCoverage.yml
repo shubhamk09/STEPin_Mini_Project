@@ -1,0 +1,18 @@
+name: Code coverage
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: code coverage
+      run: make -C 3_Implementation/ coverage
+  
