@@ -2,7 +2,7 @@
 #include "test.h"
 
 int main(){
-    
+    int count=0;
     printf("\n========================= Welcome to the Salary Management system =========================\n");
     int input=0;
     while(input!=8){
@@ -74,7 +74,10 @@ int main(){
         
 
 
-
+        if(count>10){
+            printf("Cannot enter more than 10 inputs");
+            break;
+        }
     }
 
     test_main();
