@@ -1,15 +1,23 @@
-# Architecture
+# UML Diagram
 
+# Behavior Diagrams
 
-# UML Diagrams
+## Component Diagram
 
+![](component.jpg)
+
+## Object diagram
+
+![](object.png)
 
 # Structure Diagrams
 
 
 ## Use Case Diagram
 
-![](../structure_Diagrams/usecase.png)
+![](usecase.png)
 
 ## Activity Diagram
-![](../structure_Diagrams/activity.jpg)
+
+![](activity.jpg)
+
